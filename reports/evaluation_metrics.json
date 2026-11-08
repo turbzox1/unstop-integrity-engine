@@ -1,0 +1,67 @@
+{
+  "run_info": {
+    "embedding_backend": "tfidf",
+    "embedding_model": "tfidf(word1-2+char3-5)",
+    "vector_index": "faiss.IndexFlatIP",
+    "peer_threshold": 0.45,
+    "external_threshold": 0.45,
+    "n_documents": 14,
+    "n_usable": 12,
+    "n_chunks": 33,
+    "n_reference_docs": 4,
+    "n_reference_chunks": 4,
+    "ai_detector": "heuristic",
+    "asr_backends": [
+      "pocketsphinx"
+    ],
+    "runtime_s": 16.84
+  },
+  "pair_detection": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 1,
+    "tn": 63,
+    "precision": 1.0,
+    "recall": 0.667,
+    "f1": 0.8
+  },
+  "external": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "ai_detection": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tn": 10,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "scenarios": [
+    {
+      "scenario": "1 Cross-modal duplication",
+      "pass": true,
+      "detail": "best match cos=0.474 at {'query_timestamp': '00:00:00 - 00:00:23', 'matched_page': 2}"
+    },
+    {
+      "scenario": "2 Paraphrased content",
+      "pass": false,
+      "detail": "not flagged (doc coverage 0.0%)"
+    },
+    {
+      "scenario": "3 Corrupted / empty",
+      "pass": true,
+      "detail": "sub_11_empty.pdf: empty, pitch_03_silent.mp4: no_audio"
+    },
+    {
+      "scenario": "4 Benign common template",
+      "pass": true,
+      "detail": "template sentences excluded per doc: {'sub_01_original_a.pdf': 10, 'sub_02_exact_copy_of_01.docx': 10, 'sub_03_original_b.pdf': 10, 'sub_09_original_c.docx': 10, 'sub_10_heavy_format.pdf': 10}; originals flagged: none"
+    },
+    {
+      "scenario": "5 Batch run",
+      "pass": true,
+      "detail": "14 files, 16.84s, summary matrix written"
+    }
+  ]
+}

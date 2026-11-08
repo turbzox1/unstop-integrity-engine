@@ -1,0 +1,226 @@
+{
+  "document_id": "sub_01_original_a.pdf",
+  "modality": "pdf",
+  "status": "ok",
+  "warnings": [],
+  "extraction_meta": {
+    "stripped_margin_lines": 4,
+    "pages": 2
+  },
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 97.2,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 0.7
+  },
+  "peer_matches": [
+    {
+      "matched_file": "sub_02_exact_copy_of_01.docx",
+      "similarity_score": 1.0,
+      "match_type": "verbatim copy",
+      "lexical_overlap": {
+        "trigram_jaccard": 1.0,
+        "char_ratio": 1.0
+      },
+      "query_passage": "Our team believes GreenCart should not enter all ten cities at once. Tier-two cities differ sharply in density, and a dark store only breaks even when it fulfils roughly nine hundred orders a day. We therefore propose a staggered rollout that begins with Indore and Coimbatore, where apartment clusters are dense and smartphone adoption is already high. The financial assessment rests on three numbers.",
+      "matched_passage": "Our team believes GreenCart should not enter all ten cities at once. Tier-two cities differ sharply in density, and a dark store only breaks even when it fulfils roughly nine hundred orders a day. We therefore propose a staggered rollout that begins with Indore and Coimbatore, where apartment clusters are dense and smartphone adoption is already high. The financial assessment rests on three numbers.",
+      "location": {
+        "query_page": 2,
+        "matched_page": 1
+      },
+      "aligned_sentences": [
+        {
+          "similarity": 1.0,
+          "query_sentence": "Tier-two cities differ sharply in density, and a dark store only breaks even when it fulfils roughly nine hundred orders a day.",
+          "matched_sentence": "Tier-two cities differ sharply in density, and a dark store only breaks even when it fulfils roughly nine hundred orders a day.",
+          "query_page": 2,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "Our team believes GreenCart should not enter all ten cities at once.",
+          "matched_sentence": "Our team believes GreenCart should not enter all ten cities at once.",
+          "query_page": 2,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "The financial assessment rests on three numbers.",
+          "matched_sentence": "The financial assessment rests on three numbers.",
+          "query_page": 2,
+          "matched_page": 1
+        }
+      ]
+    },
+    {
+      "matched_file": "sub_02_exact_copy_of_01.docx",
+      "similarity_score": 1.0,
+      "match_type": "verbatim copy",
+      "lexical_overlap": {
+        "trigram_jaccard": 1.0,
+        "char_ratio": 1.0
+      },
+      "query_passage": "The financial assessment rests on three numbers. We assume an average order value of four hundred and twenty rupees, a contribution margin of eighteen percent before delivery, and a delivery cost of thirty eight rupees per order. Under these assumptions a store needs fourteen months to recover its setup capital, which is acceptable only if customer churn stays below six percent per month.",
+      "matched_passage": "The financial assessment rests on three numbers. We assume an average order value of four hundred and twenty rupees, a contribution margin of eighteen percent before delivery, and a delivery cost of thirty eight rupees per order. Under these assumptions a store needs fourteen months to recover its setup capital, which is acceptable only if customer churn stays below six percent per month.",
+      "location": {
+        "query_page": 2,
+        "matched_page": 1
+      },
+      "aligned_sentences": [
+        {
+          "similarity": 1.0,
+          "query_sentence": "The financial assessment rests on three numbers.",
+          "matched_sentence": "The financial assessment rests on three numbers.",
+          "query_page": 2,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "We assume an average order value of four hundred and twenty rupees, a contribution margin of eighteen percent before delivery, and a delivery cost of thirty eight rupees per order.",
+          "matched_sentence": "We assume an average order value of four hundred and twenty rupees, a contribution margin of eighteen percent before delivery, and a delivery cost of thirty eight rupees per order.",
+          "query_page": 2,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "Under these assumptions a store needs fourteen months to recover its setup capital, which is acceptable only if customer churn stays below six percent per month.",
+          "matched_sentence": "Under these assumptions a store needs fourteen months to recover its setup capital, which is acceptable only if customer churn stays below six percent per month.",
+          "query_page": 2,
+          "matched_page": 1
+        }
+      ]
+    },
+    {
+      "matched_file": "sub_02_exact_copy_of_01.docx",
+      "similarity_score": 1.0,
+      "match_type": "verbatim copy",
+      "lexical_overlap": {
+        "trigram_jaccard": 1.0,
+        "char_ratio": 1.0
+      },
+      "query_passage": "Under these assumptions a store needs fourteen months to recover its setup capital, which is acceptable only if customer churn stays below six percent per month. The largest operational risk is rider availability during festivals and monsoon weeks. We recommend a hybrid fleet where forty percent of riders are salaried and the rest are paid per drop, so that service levels hold when demand spikes.",
+      "matched_passage": "Under these assumptions a store needs fourteen months to recover its setup capital, which is acceptable only if customer churn stays below six percent per month. The largest operational risk is rider availability during festivals and monsoon weeks. We recommend a hybrid fleet where forty percent of riders are salaried and the rest are paid per drop, so that service levels hold when demand spikes.",
+      "location": {
+        "query_page": 2,
+        "matched_page": 1
+      },
+      "aligned_sentences": [
+        {
+          "similarity": 1.0,
+          "query_sentence": "The largest operational risk is rider availability during festivals and monsoon weeks.",
+          "matched_sentence": "The largest operational risk is rider availability during festivals and monsoon weeks.",
+          "query_page": 2,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "We recommend a hybrid fleet where forty percent of riders are salaried and the rest are paid per drop, so that service levels hold when demand spikes.",
+          "matched_sentence": "We recommend a hybrid fleet where forty percent of riders are salaried and the rest are paid per drop, so that service levels hold when demand spikes.",
+          "query_page": 2,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "Under these assumptions a store needs fourteen months to recover its setup capital, which is acceptable only if customer churn stays below six percent per month.",
+          "matched_sentence": "Under these assumptions a store needs fourteen months to recover its setup capital, which is acceptable only if customer churn stays below six percent per month.",
+          "query_page": 2,
+          "matched_page": 1
+        }
+      ]
+    },
+    {
+      "matched_file": "sub_02_exact_copy_of_01.docx",
+      "similarity_score": 1.0,
+      "match_type": "verbatim copy",
+      "lexical_overlap": {
+        "trigram_jaccard": 1.0,
+        "char_ratio": 1.0
+      },
+      "query_passage": "We recommend a hybrid fleet where forty percent of riders are salaried and the rest are paid per drop, so that service levels hold when demand spikes. Supplier risk is lower because regional dairy cooperatives already run cold chains into these cities.",
+      "matched_passage": "We recommend a hybrid fleet where forty percent of riders are salaried and the rest are paid per drop, so that service levels hold when demand spikes. Supplier risk is lower because regional dairy cooperatives already run cold chains into these cities.",
+      "location": {
+        "query_page": 2,
+        "matched_page": 1
+      },
+      "aligned_sentences": [
+        {
+          "similarity": 1.0,
+          "query_sentence": "We recommend a hybrid fleet where forty percent of riders are salaried and the rest are paid per drop, so that service levels hold when demand spikes.",
+          "matched_sentence": "We recommend a hybrid fleet where forty percent of riders are salaried and the rest are paid per drop, so that service levels hold when demand spikes.",
+          "query_page": 2,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "Supplier risk is lower because regional dairy cooperatives already run cold chains into these cities.",
+          "matched_sentence": "Supplier risk is lower because regional dairy cooperatives already run cold chains into these cities.",
+          "query_page": 2,
+          "matched_page": 1
+        }
+      ]
+    }
+  ],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "ai_analysis": {
+    "method": "stylometric-heuristic",
+    "features": {
+      "marker_density": 0.0,
+      "burstiness": 0.361,
+      "specificity": 10.615,
+      "long_word_ratio": 0.101,
+      "n_words": 179,
+      "n_sentences": 9
+    },
+    "contributions": {
+      "marker_density": -0.87,
+      "burstiness": 0.36,
+      "specificity": -3.0,
+      "long_word_ratio": -0.47
+    },
+    "probability": 0.7
+  },
+  "boilerplate_excluded": [
+    {
+      "text": "Case Prompt: GreenCart Quick Commerce Expansion.",
+      "page": 1
+    },
+    {
+      "text": "GreenCart is a mid-sized grocery delivery company operating in three Indian metro cities.",
+      "page": 1
+    },
+    {
+      "text": "The founders are considering an expansion into ten tier-two cities over the next eighteen months.",
+      "page": 1
+    },
+    {
+      "text": "Participants must analyse the market opportunity, evaluate the unit economics of dark stores, identify the main operational risks, and recommend a go-to-market strategy.",
+      "page": 1
+    },
+    {
+      "text": "Answers should address customer acquisition cost, average order value, delivery time commitments, and supplier relationships.",
+      "page": 1
+    },
+    {
+      "text": "Teams must state all assumptions clearly and support every recommendation with quantitative reasoning.",
+      "page": 1
+    },
+    {
+      "text": "The submission should not exceed five pages and must include an executive summary, a market analysis, a financial assessment, and a risk mitigation plan.",
+      "page": 1
+    },
+    {
+      "text": "Cite all external sources using a consistent referencing style.",
+      "page": 1
+    },
+    {
+      "text": "Submissions will be judged on analytical depth, feasibility, clarity of communication, and originality of insight.",
+      "page": 1
+    },
+    {
+      "text": "Late submissions will not be evaluated by the panel.",
+      "page": 1
+    }
+  ],
+  "explanations": "97.2% of original (non-template) text overlaps with other submissions: sub_02_exact_copy_of_01.docx (query at 2). Note: similarity is symmetric, so the report cannot tell who copied whom; use submission timestamps to decide. AI-generation indicator is low (0.7%); this is a stylometric signal, not proof, and should only prompt a closer read. 10 sentences were recognised as shared template/prompt text (present in 3+ submissions) and excluded from scoring."
+}

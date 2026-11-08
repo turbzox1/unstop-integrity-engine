@@ -1,0 +1,27 @@
+{
+  "document_id": "pitch_02_original.mp4",
+  "modality": "video",
+  "status": "ok",
+  "warnings": [],
+  "extraction_meta": {
+    "duration_s": 16.28,
+    "max_volume_db": -0.0,
+    "asr_backend": "pocketsphinx"
+  },
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "ai_analysis": {
+    "probability": null,
+    "method": "heuristic",
+    "note": "Insufficient text (<60 words) for a reliable estimate"
+  },
+  "boilerplate_excluded": [],
+  "explanations": "No significant overlap with other submissions."
+}

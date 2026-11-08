@@ -1,0 +1,22 @@
+{
+  "document_id": "pitch_03_silent.mp4",
+  "modality": "video",
+  "status": "no_audio",
+  "warnings": [
+    "Video has no audio track; nothing to transcribe (flagged for manual review)"
+  ],
+  "extraction_meta": {
+    "duration_s": 10.0
+  },
+  "total_integrity_risk": "NEEDS_MANUAL_REVIEW",
+  "scores": {
+    "peer_similarity_percentage": null,
+    "external_similarity_percentage": null,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "boilerplate_excluded": [],
+  "explanations": "Not scored: Video has no audio track; nothing to transcribe (flagged for manual review). The file was skipped without affecting the rest of the batch; a reviewer should request a valid re-upload."
+}

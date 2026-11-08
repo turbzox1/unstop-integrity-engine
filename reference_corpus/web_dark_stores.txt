@@ -1,0 +1,3 @@
+SOURCE_URL: https://example-encyclopedia.org/wiki/Dark_store (simulated)
+
+Dark stores are small warehouses that are closed to the public and exist only to fulfil online orders. They are usually located in dense residential neighbourhoods so that riders can reach customers within a few kilometres. Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes. The model became popular during the pandemic, when demand for contactless grocery delivery grew rapidly. Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.

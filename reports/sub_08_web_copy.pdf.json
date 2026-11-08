@@ -1,0 +1,150 @@
+{
+  "document_id": "sub_08_web_copy.pdf",
+  "modality": "pdf",
+  "status": "ok",
+  "warnings": [],
+  "extraction_meta": {
+    "stripped_margin_lines": 2,
+    "pages": 1
+  },
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 100.0,
+    "ai_generated_probability": 12.1
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [
+    {
+      "matched_source": "web_dark_stores.txt",
+      "similarity_score": 0.567,
+      "match_type": "near-verbatim (light edits)",
+      "lexical_overlap": {
+        "trigram_jaccard": 0.383,
+        "char_ratio": 0.55
+      },
+      "query_passage": "Dark Store Note - Team Delta Background. Dark stores are small warehouses that are closed to the public and exist only to fulfil online orders. They are usually located in dense residential neighbourhoods so that riders can reach customers within a few kilometres. Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes.",
+      "matched_passage": "They are usually located in dense residential neighbourhoods so that riders can reach customers within a few kilometres. Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes. The model became popular during the pandemic, when demand for contactless grocery delivery grew rapidly. Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1
+      },
+      "aligned_sentences": [
+        {
+          "similarity": 1.0,
+          "query_sentence": "They are usually located in dense residential neighbourhoods so that riders can reach customers within a few kilometres.",
+          "matched_sentence": "They are usually located in dense residential neighbourhoods so that riders can reach customers within a few kilometres.",
+          "query_page": 1,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes.",
+          "matched_sentence": "Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes.",
+          "query_page": 1,
+          "matched_page": 1
+        },
+        {
+          "similarity": 0.116,
+          "query_sentence": "Dark Store Note - Team Delta",
+          "matched_sentence": "Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes.",
+          "query_page": 1,
+          "matched_page": 1
+        }
+      ],
+      "source_url": "https://example-encyclopedia.org/wiki/Dark_store (simulated) Dark stores are small warehouses that are closed to the public and exist only to fulfil online orders."
+    },
+    {
+      "matched_source": "web_dark_stores.txt",
+      "similarity_score": 0.899,
+      "match_type": "verbatim copy",
+      "lexical_overlap": {
+        "trigram_jaccard": 0.783,
+        "char_ratio": 0.876
+      },
+      "query_passage": "Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes. The model became popular during the pandemic, when demand for contactless grocery delivery grew rapidly. Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.",
+      "matched_passage": "They are usually located in dense residential neighbourhoods so that riders can reach customers within a few kilometres. Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes. The model became popular during the pandemic, when demand for contactless grocery delivery grew rapidly. Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1
+      },
+      "aligned_sentences": [
+        {
+          "similarity": 1.0,
+          "query_sentence": "The model became popular during the pandemic, when demand for contactless grocery delivery grew rapidly.",
+          "matched_sentence": "The model became popular during the pandemic, when demand for contactless grocery delivery grew rapidly.",
+          "query_page": 1,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.",
+          "matched_sentence": "Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.",
+          "query_page": 1,
+          "matched_page": 1
+        },
+        {
+          "similarity": 1.0,
+          "query_sentence": "Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes.",
+          "matched_sentence": "Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes.",
+          "query_page": 1,
+          "matched_page": 1
+        }
+      ],
+      "source_url": "https://example-encyclopedia.org/wiki/Dark_store (simulated) Dark stores are small warehouses that are closed to the public and exist only to fulfil online orders."
+    },
+    {
+      "matched_source": "web_dark_stores.txt",
+      "similarity_score": 0.466,
+      "match_type": "near-verbatim (light edits)",
+      "lexical_overlap": {
+        "trigram_jaccard": 0.225,
+        "char_ratio": 0.412
+      },
+      "query_passage": "Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate. In our view GreenCart can use this model in tier-two cities if rent stays low, but we did not complete a full financial model for this submission.",
+      "matched_passage": "They are usually located in dense residential neighbourhoods so that riders can reach customers within a few kilometres. Inventory in a dark store is limited to a few thousand fast moving products, which allows pickers to assemble an order in under three minutes. The model became popular during the pandemic, when demand for contactless grocery delivery grew rapidly. Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1
+      },
+      "aligned_sentences": [
+        {
+          "similarity": 1.0,
+          "query_sentence": "Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.",
+          "matched_sentence": "Critics argue that dark stores create traffic congestion and noise in residential areas, and several city councils have introduced zoning rules that restrict where they can operate.",
+          "query_page": 1,
+          "matched_page": 1
+        },
+        {
+          "similarity": 0.083,
+          "query_sentence": "In our view GreenCart can use this model in tier-two cities if rent stays low, but we did not complete a full financial model for this submission.",
+          "matched_sentence": "The model became popular during the pandemic, when demand for contactless grocery delivery grew rapidly.",
+          "query_page": 1,
+          "matched_page": 1
+        }
+      ],
+      "source_url": "https://example-encyclopedia.org/wiki/Dark_store (simulated) Dark stores are small warehouses that are closed to the public and exist only to fulfil online orders."
+    }
+  ],
+  "ai_analysis": {
+    "method": "stylometric-heuristic",
+    "features": {
+      "marker_density": 0.0,
+      "burstiness": 0.347,
+      "specificity": 3.65,
+      "long_word_ratio": 0.102,
+      "n_words": 137,
+      "n_sentences": 7
+    },
+    "contributions": {
+      "marker_density": -0.87,
+      "burstiness": 0.41,
+      "specificity": -0.07,
+      "long_word_ratio": -0.46
+    },
+    "probability": 12.1
+  },
+  "boilerplate_excluded": [],
+  "explanations": "No significant overlap with other submissions. 100.0% matches external reference sources (web_dark_stores.txt) without being original analysis. AI-generation indicator is low (12.1%); this is a stylometric signal, not proof, and should only prompt a closer read."
+}

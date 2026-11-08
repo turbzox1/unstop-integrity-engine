@@ -1,0 +1,289 @@
+{
+  "run_info": {
+    "embedding_backend": "tfidf",
+    "embedding_model": "tfidf(word1-2+char3-5)",
+    "vector_index": "faiss.IndexFlatIP",
+    "peer_threshold": 0.45,
+    "external_threshold": 0.45,
+    "n_documents": 14,
+    "n_usable": 12,
+    "n_chunks": 33,
+    "n_reference_docs": 4,
+    "n_reference_chunks": 4,
+    "ai_detector": "heuristic",
+    "asr_backends": [
+      "pocketsphinx"
+    ],
+    "runtime_s": 16.84
+  },
+  "pair_matrix": {
+    "pitch_01_reads_sub06.mp4": {
+      "pitch_01_reads_sub06.mp4": null,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 85.7,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "pitch_02_original.mp4": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": null,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_01_original_a.pdf": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": null,
+      "sub_02_exact_copy_of_01.docx": 97.2,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_02_exact_copy_of_01.docx": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 97.8,
+      "sub_02_exact_copy_of_01.docx": null,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_03_original_b.pdf": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": null,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_04_ev_original.docx": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": null,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_05_ev_paraphrase.docx": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": null,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_06_cold_chain.pdf": {
+      "pitch_01_reads_sub06.mp4": 55.8,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": null,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_07_ai_generated.docx": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": null,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_08_web_copy.pdf": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": null,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_09_original_c.docx": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": null,
+      "sub_10_heavy_format.pdf": 0.0
+    },
+    "sub_10_heavy_format.pdf": {
+      "pitch_01_reads_sub06.mp4": 0.0,
+      "pitch_02_original.mp4": 0.0,
+      "sub_01_original_a.pdf": 0.0,
+      "sub_02_exact_copy_of_01.docx": 0.0,
+      "sub_03_original_b.pdf": 0.0,
+      "sub_04_ev_original.docx": 0.0,
+      "sub_05_ev_paraphrase.docx": 0.0,
+      "sub_06_cold_chain.pdf": 0.0,
+      "sub_07_ai_generated.docx": 0.0,
+      "sub_08_web_copy.pdf": 0.0,
+      "sub_09_original_c.docx": 0.0,
+      "sub_10_heavy_format.pdf": null
+    }
+  },
+  "documents": {
+    "pitch_01_reads_sub06.mp4": {
+      "risk": "HIGH",
+      "status": "ok",
+      "peer_similarity_percentage": 85.7,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 1.5
+    },
+    "pitch_02_original.mp4": {
+      "risk": "LOW",
+      "status": "ok",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": null
+    },
+    "pitch_03_silent.mp4": {
+      "risk": "NEEDS_MANUAL_REVIEW",
+      "status": "no_audio",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    },
+    "sub_01_original_a.pdf": {
+      "risk": "HIGH",
+      "status": "ok",
+      "peer_similarity_percentage": 97.2,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 0.7
+    },
+    "sub_02_exact_copy_of_01.docx": {
+      "risk": "HIGH",
+      "status": "ok",
+      "peer_similarity_percentage": 97.8,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 0.6
+    },
+    "sub_03_original_b.pdf": {
+      "risk": "LOW",
+      "status": "ok",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 2.4
+    },
+    "sub_04_ev_original.docx": {
+      "risk": "LOW",
+      "status": "ok",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 10.7
+    },
+    "sub_05_ev_paraphrase.docx": {
+      "risk": "LOW",
+      "status": "ok",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 19.2
+    },
+    "sub_06_cold_chain.pdf": {
+      "risk": "HIGH",
+      "status": "ok",
+      "peer_similarity_percentage": 55.8,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 7.2
+    },
+    "sub_07_ai_generated.docx": {
+      "risk": "HIGH",
+      "status": "ok",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 99.7
+    },
+    "sub_08_web_copy.pdf": {
+      "risk": "HIGH",
+      "status": "ok",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 100.0,
+      "ai_generated_probability": 12.1
+    },
+    "sub_09_original_c.docx": {
+      "risk": "LOW",
+      "status": "ok",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 15.0
+    },
+    "sub_10_heavy_format.pdf": {
+      "risk": "LOW",
+      "status": "ok",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 5.5
+    },
+    "sub_11_empty.pdf": {
+      "risk": "NEEDS_MANUAL_REVIEW",
+      "status": "empty",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "sub_05_ev_paraphrase.docx",
+  "modality": "docx",
+  "status": "ok",
+  "warnings": [],
+  "extraction_meta": {
+    "page_numbers": "estimated (450 words/page)"
+  },
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 19.2
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "ai_analysis": {
+    "method": "stylometric-heuristic",
+    "features": {
+      "marker_density": 0.0,
+      "burstiness": 0.292,
+      "specificity": 1.911,
+      "long_word_ratio": 0.064,
+      "n_words": 157,
+      "n_sentences": 6
+    },
+    "contributions": {
+      "marker_density": -0.87,
+      "burstiness": 0.63,
+      "specificity": 0.72,
+      "long_word_ratio": -0.91
+    },
+    "probability": 19.2
+  },
+  "boilerplate_excluded": [],
+  "explanations": "No significant overlap with other submissions. AI-generation indicator is low (19.2%); this is a stylometric signal, not proof, and should only prompt a closer read."
+}

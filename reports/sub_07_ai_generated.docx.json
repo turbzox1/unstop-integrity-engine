@@ -1,0 +1,38 @@
+{
+  "document_id": "sub_07_ai_generated.docx",
+  "modality": "docx",
+  "status": "ok",
+  "warnings": [],
+  "extraction_meta": {
+    "page_numbers": "estimated (450 words/page)"
+  },
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 99.7
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "ai_analysis": {
+    "method": "stylometric-heuristic",
+    "features": {
+      "marker_density": 16.447,
+      "burstiness": 0.274,
+      "specificity": 0.0,
+      "long_word_ratio": 0.263,
+      "n_words": 152,
+      "n_sentences": 9
+    },
+    "contributions": {
+      "marker_density": 3.0,
+      "burstiness": 0.7,
+      "specificity": 1.57,
+      "long_word_ratio": 1.48
+    },
+    "probability": 99.7
+  },
+  "boilerplate_excluded": [],
+  "explanations": "No significant overlap with other submissions. AI-generation indicator is high (99.7%); this is a stylometric signal, not proof, and should only prompt a closer read."
+}

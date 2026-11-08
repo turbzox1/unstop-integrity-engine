@@ -1,0 +1,78 @@
+{
+  "document_id": "sub_06_cold_chain.pdf",
+  "modality": "pdf",
+  "status": "ok",
+  "warnings": [],
+  "extraction_meta": {
+    "stripped_margin_lines": 4,
+    "pages": 2
+  },
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 55.8,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 7.2
+  },
+  "peer_matches": [],
+  "multimodal_matches": [
+    {
+      "matched_file": "pitch_01_reads_sub06.mp4",
+      "similarity_score": 0.474,
+      "match_type": "near-verbatim (light edits)",
+      "lexical_overlap": {
+        "trigram_jaccard": 0.254,
+        "char_ratio": 0.628
+      },
+      "query_passage": "Solar powered refrigerators with phase change batteries can keep vaccines cold for up to five days without electricity. Each unit costs about three thousand dollars, but it removes the need for diesel generators and cuts spoilage to almost zero. We recommend that every district deploy these units at the ten health centres with the worst power supply first. A low cost temperature logger with a cellular connection should be attached to every unit, so that district officials receive an alert whenever the temperature leaves the safe range.",
+      "matched_passage": "hello judges our team worked on oral health logistics solar powered refrigerators. with his change batteries can keep vaccines code for up to five. days without electricity each unit costs about three thousand dollars but the. term moves the need for diesel generators and cuts for elite to. almost zero we recommend that every district the board resume except that.",
+      "location": {
+        "query_page": 2,
+        "matched_timestamp": "00:00:00 - 00:00:23"
+      },
+      "aligned_sentences": [
+        {
+          "similarity": 0.455,
+          "query_sentence": "Each unit costs about three thousand dollars, but it removes the need for diesel generators and cuts spoilage to almost zero.",
+          "matched_sentence": "days without electricity each unit costs about three thousand dollars but the.",
+          "query_page": 2,
+          "matched_timestamp": "00:00:09 - 00:00:14"
+        },
+        {
+          "similarity": 0.444,
+          "query_sentence": "Solar powered refrigerators with phase change batteries can keep vaccines cold for up to five days without electricity.",
+          "matched_sentence": "with his change batteries can keep vaccines code for up to five.",
+          "query_page": 2,
+          "matched_timestamp": "00:00:05 - 00:00:09"
+        },
+        {
+          "similarity": 0.228,
+          "query_sentence": "We recommend that every district deploy these units at the ten health centres with the worst power supply first.",
+          "matched_sentence": "almost zero we recommend that every district the board resume except that.",
+          "query_page": 2,
+          "matched_timestamp": "00:00:18 - 00:00:23"
+        }
+      ]
+    }
+  ],
+  "external_matches": [],
+  "ai_analysis": {
+    "method": "stylometric-heuristic",
+    "features": {
+      "marker_density": 0.0,
+      "burstiness": 0.2,
+      "specificity": 6.41,
+      "long_word_ratio": 0.109,
+      "n_words": 156,
+      "n_sentences": 7
+    },
+    "contributions": {
+      "marker_density": -0.87,
+      "burstiness": 1.0,
+      "specificity": -1.31,
+      "long_word_ratio": -0.37
+    },
+    "probability": 7.2
+  },
+  "boilerplate_excluded": [],
+  "explanations": "55.8% of original (non-template) text overlaps with other submissions: pitch_01_reads_sub06.mp4 (query at 2). Cross-modal overlap found between a video transcript and a written submission; check the timestamps against the page reference. Note: similarity is symmetric, so the report cannot tell who copied whom; use submission timestamps to decide. AI-generation indicator is low (7.2%); this is a stylometric signal, not proof, and should only prompt a closer read."
+}

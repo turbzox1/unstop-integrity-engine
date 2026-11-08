@@ -1,0 +1,3 @@
+SOURCE_URL: https://example-encyclopedia.org/wiki/Food_waste (simulated)
+
+Food waste refers to food that is fit for consumption but is discarded at the retail or consumer level. Institutional kitchens such as hospitals, schools and university canteens contribute a significant share because meals are prepared in advance of uncertain demand.

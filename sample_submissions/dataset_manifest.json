@@ -1,0 +1,97 @@
+{
+  "description": "Synthetic ground truth for the integrity engine. 'pairs' lists document pairs that SHOULD be flagged; every other pair should not be flagged.",
+  "files": {
+    "sub_01_original_a.pdf": {
+      "label": "original",
+      "contains_template": true
+    },
+    "sub_02_exact_copy_of_01.docx": {
+      "label": "exact_copy",
+      "source": "sub_01_original_a.pdf",
+      "contains_template": true
+    },
+    "sub_03_original_b.pdf": {
+      "label": "original",
+      "contains_template": true
+    },
+    "sub_04_ev_original.docx": {
+      "label": "original"
+    },
+    "sub_05_ev_paraphrase.docx": {
+      "label": "paraphrase",
+      "source": "sub_04_ev_original.docx"
+    },
+    "sub_06_cold_chain.pdf": {
+      "label": "original"
+    },
+    "sub_07_ai_generated.docx": {
+      "label": "ai_generated"
+    },
+    "sub_08_web_copy.pdf": {
+      "label": "external_copy",
+      "external_source": "web_dark_stores.txt"
+    },
+    "sub_09_original_c.docx": {
+      "label": "original",
+      "contains_template": true
+    },
+    "sub_10_heavy_format.pdf": {
+      "label": "original",
+      "contains_template": true,
+      "note": "header/footer on every page + table"
+    },
+    "sub_11_empty.pdf": {
+      "label": "corrupted",
+      "note": "zero-byte file"
+    },
+    "pitch_01_reads_sub06.mp4": {
+      "label": "cross_modal_copy",
+      "source": "sub_06_cold_chain.pdf",
+      "note": "reads page-2 paragraph aloud after a short intro"
+    },
+    "pitch_02_original.mp4": {
+      "label": "original"
+    },
+    "pitch_03_silent.mp4": {
+      "label": "corrupted",
+      "note": "no audio track"
+    }
+  },
+  "pairs": [
+    {
+      "a": "sub_01_original_a.pdf",
+      "b": "sub_02_exact_copy_of_01.docx",
+      "type": "exact_copy"
+    },
+    {
+      "a": "sub_04_ev_original.docx",
+      "b": "sub_05_ev_paraphrase.docx",
+      "type": "paraphrase"
+    },
+    {
+      "a": "sub_06_cold_chain.pdf",
+      "b": "pitch_01_reads_sub06.mp4",
+      "type": "cross_modal"
+    }
+  ],
+  "external": [
+    {
+      "doc": "sub_08_web_copy.pdf",
+      "source": "web_dark_stores.txt"
+    }
+  ],
+  "ai_generated": [
+    "sub_07_ai_generated.docx"
+  ],
+  "template_docs": [
+    "sub_01_original_a.pdf",
+    "sub_02_exact_copy_of_01.docx",
+    "sub_03_original_b.pdf",
+    "sub_09_original_c.docx",
+    "sub_10_heavy_format.pdf"
+  ],
+  "corrupted": [
+    "sub_11_empty.pdf",
+    "pitch_03_silent.mp4"
+  ]
+}

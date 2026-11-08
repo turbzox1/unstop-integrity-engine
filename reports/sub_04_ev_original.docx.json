@@ -1,0 +1,38 @@
+{
+  "document_id": "sub_04_ev_original.docx",
+  "modality": "docx",
+  "status": "ok",
+  "warnings": [],
+  "extraction_meta": {
+    "page_numbers": "estimated (450 words/page)"
+  },
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 10.7
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "ai_analysis": {
+    "method": "stylometric-heuristic",
+    "features": {
+      "marker_density": 0.0,
+      "burstiness": 0.324,
+      "specificity": 4.0,
+      "long_word_ratio": 0.096,
+      "n_words": 125,
+      "n_sentences": 6
+    },
+    "contributions": {
+      "marker_density": -0.87,
+      "burstiness": 0.5,
+      "specificity": -0.23,
+      "long_word_ratio": -0.53
+    },
+    "probability": 10.7
+  },
+  "boilerplate_excluded": [],
+  "explanations": "No significant overlap with other submissions. AI-generation indicator is low (10.7%); this is a stylometric signal, not proof, and should only prompt a closer read."
+}

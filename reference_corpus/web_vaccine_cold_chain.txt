@@ -1,0 +1,3 @@
+SOURCE_URL: https://example-encyclopedia.org/wiki/Vaccine_cold_chain (simulated)
+
+The vaccine cold chain is the system of storage and transport that keeps vaccines within a recommended temperature range from manufacture to administration. Most routine vaccines must be stored between two and eight degrees Celsius. Solar direct drive refrigerators are used in regions with unreliable electricity because they do not require batteries or grid power.

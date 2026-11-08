@@ -1,0 +1,80 @@
+{
+  "document_id": "sub_03_original_b.pdf",
+  "modality": "pdf",
+  "status": "ok",
+  "warnings": [],
+  "extraction_meta": {
+    "stripped_margin_lines": 4,
+    "pages": 2
+  },
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 2.4
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "ai_analysis": {
+    "method": "stylometric-heuristic",
+    "features": {
+      "marker_density": 0.0,
+      "burstiness": 0.352,
+      "specificity": 8.163,
+      "long_word_ratio": 0.129,
+      "n_words": 147,
+      "n_sentences": 7
+    },
+    "contributions": {
+      "marker_density": -0.87,
+      "burstiness": 0.39,
+      "specificity": -2.1,
+      "long_word_ratio": -0.13
+    },
+    "probability": 2.4
+  },
+  "boilerplate_excluded": [
+    {
+      "text": "Case Prompt: GreenCart Quick Commerce Expansion.",
+      "page": 1
+    },
+    {
+      "text": "GreenCart is a mid-sized grocery delivery company operating in three Indian metro cities.",
+      "page": 1
+    },
+    {
+      "text": "The founders are considering an expansion into ten tier-two cities over the next eighteen months.",
+      "page": 1
+    },
+    {
+      "text": "Participants must analyse the market opportunity, evaluate the unit economics of dark stores, identify the main operational risks, and recommend a go-to-market strategy.",
+      "page": 1
+    },
+    {
+      "text": "Answers should address customer acquisition cost, average order value, delivery time commitments, and supplier relationships.",
+      "page": 1
+    },
+    {
+      "text": "Teams must state all assumptions clearly and support every recommendation with quantitative reasoning.",
+      "page": 1
+    },
+    {
+      "text": "The submission should not exceed five pages and must include an executive summary, a market analysis, a financial assessment, and a risk mitigation plan.",
+      "page": 1
+    },
+    {
+      "text": "Cite all external sources using a consistent referencing style.",
+      "page": 1
+    },
+    {
+      "text": "Submissions will be judged on analytical depth, feasibility, clarity of communication, and originality of insight.",
+      "page": 1
+    },
+    {
+      "text": "Late submissions will not be evaluated by the panel.",
+      "page": 1
+    }
+  ],
+  "explanations": "No significant overlap with other submissions. AI-generation indicator is low (2.4%); this is a stylometric signal, not proof, and should only prompt a closer read. 10 sentences were recognised as shared template/prompt text (present in 3+ submissions) and excluded from scoring."
+}

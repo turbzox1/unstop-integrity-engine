@@ -1,0 +1,20 @@
+{
+  "document_id": "sub_11_empty.pdf",
+  "modality": "pdf",
+  "status": "empty",
+  "warnings": [
+    "File is empty (0 bytes); skipped"
+  ],
+  "extraction_meta": {},
+  "total_integrity_risk": "NEEDS_MANUAL_REVIEW",
+  "scores": {
+    "peer_similarity_percentage": null,
+    "external_similarity_percentage": null,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "boilerplate_excluded": [],
+  "explanations": "Not scored: File is empty (0 bytes); skipped. The file was skipped without affecting the rest of the batch; a reviewer should request a valid re-upload."
+}

@@ -1,0 +1,3 @@
+SOURCE_URL: https://example-encyclopedia.org/wiki/Battery_swapping (simulated)
+
+Battery swapping is a method of refuelling electric vehicles in which a discharged battery is removed and replaced with a fully charged one at a dedicated station. The approach is common for electric scooters in Asia, where operators run networks of swap kiosks. Supporters say it removes charging delays, while critics point to the need for standardised battery packs across manufacturers.
